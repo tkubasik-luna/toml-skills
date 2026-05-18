@@ -1,6 +1,6 @@
-# tom-feature-workflow
+# toml-skills
 
-Claude Code plugin: end-to-end feature workflow.
+Claude Code plugin: end-to-end feature workflow skills.
 
 ## Skills
 
@@ -22,20 +22,20 @@ Claude Code plugin: end-to-end feature workflow.
 
 ```bash
 # 1. Add marketplace (once)
-/plugin marketplace add <git-url-or-local-path>
+/plugin marketplace add tkubasik-luna/toml-skills
 
 # 2. Install plugin
-/plugin install tom-feature-workflow@tom-feature-workflow
+/plugin install toml-skills@toml-skills
 ```
 
 ## Update
 
 ```bash
-/plugin update tom-feature-workflow
+/plugin update toml-skills
 ```
 
 ## Modify locally
 
-Plugin installs to `~/.claude/plugins/tom-feature-workflow/`. Edit files directly to test changes live.
+Plugin installs to `~/.claude/plugins/toml-skills/`. Edit files directly to test changes live.
 
 Upstream changes via PR on this repo.

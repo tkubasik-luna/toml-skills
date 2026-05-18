@@ -1,13 +1,13 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "tom-feature-workflow",
+  "name": "toml-skills",
   "description": "Feature workflow skills: grill → PRD → issues → implement.",
   "owner": {
     "name": "Tom Kubasik"
   },
   "plugins": [
     {
-      "name": "tom-feature-workflow",
+      "name": "toml-skills",
       "description": "End-to-end feature workflow skills.",
       "source": "./",
       "category": "productivity"

@@ -1,5 +1,5 @@
 {
-  "name": "tom-feature-workflow",
+  "name": "toml-skills",
   "version": "0.1.0",
   "description": "End-to-end feature workflow: grill design, write PRD, split into issues, implement in parallel.",
   "author": "Tom Kubasik",

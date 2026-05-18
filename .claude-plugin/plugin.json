@@ -1,12 +1,9 @@
 {
   "name": "toml-skills",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "End-to-end feature workflow: grill design, write PRD, split into issues, implement in parallel.",
-  "author": "Tom Kubasik",
-  "skills": [
-    "skills/grill-me",
-    "skills/to-prd",
-    "skills/to-issues",
-    "skills/implement-feature"
-  ]
+  "author": {
+    "name": "Tom Kubasik",
+    "url": "https://github.com/tkubasik-luna"
+  }
 }

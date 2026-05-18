@@ -5,6 +5,7 @@ Claude Code plugin: end-to-end feature workflow skills.
 ## Skills
 
 - **grill-me** — Stress-test plan/design via relentless interview until shared understanding.
+- **grill-challenge** — Same as grill-me, with each recommendation peer-reviewed by an Opus architect sub-agent (maintainability + evolvability lens).
 - **to-prd** — Convert current conversation context into a PRD under `prd/`.
 - **to-issues** — Break PRD into independently-grabbable issues under `issues/` (tracer-bullet vertical slices).
 - **implement-feature** — Implement PRD end-to-end. Dep graph from `Blocked by`, parallel subagents for independent issues, sequential for chained.
@@ -12,10 +13,11 @@ Claude Code plugin: end-to-end feature workflow skills.
 ## Workflow
 
 ```
-/grill-me        →  align on design
-/to-prd          →  write prd/NNNN-feature.md
-/to-issues       →  write issues/NNNN-*.md
-/implement-feature → ship it
+/grill-me          →  align on design
+/grill-challenge   →  grill + Opus architect peer-review per recommendation
+/to-prd            →  write prd/NNNN-feature.md
+/to-issues         →  write issues/NNNN-*.md
+/implement-feature →  ship it
 ```
 
 ## Install
